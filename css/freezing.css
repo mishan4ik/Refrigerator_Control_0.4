@@ -1,0 +1,116 @@
+.block_freezing_main{
+
+    display: flex;
+   justify-content: center;
+   margin-top: 100px;
+
+}
+
+.block_title_main{
+
+    display: flex;
+    border: 2px solid #000;
+    width: 400px;
+    align-items: center;
+
+}
+
+.icon_title img{
+
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+
+}
+
+.title_name h2{
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.block_timer_freezing_main{
+
+    border: 2px solid #000;
+    width: 400px;
+    text-align: center;
+
+}
+
+.time_freezing{
+
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px;
+
+}
+
+.info_freezing{
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px;
+
+}
+
+.block_btn_freezing{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.temperature_stable,.temperature_dynamic{
+
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: blue;
+
+
+}
+
+.btn_freezing{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+    background-image: url(../img/freezing/play.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.btn_freezing:hover{
+
+    cursor: pointer;
+
+
+}
+
+.block_back{
+
+    border: 2px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.block_back img{
+
+    width: 40px;
+    height: 50px;
+
+}
+.btn_back:hover{
+
+    cursor: pointer;
+
+}
